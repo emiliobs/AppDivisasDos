@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppDivisasDos.DivisasPage">
+  <ScrollView>
+    <StackLayout Padding="10,20,10,10" Spacing="10">
+      <Label Text="Divisas" FontSize="40" FontAttributes="Bold" HorizontalOptions="Center" VerticalOptions="Center"></Label>
+      <Label Text="Ingrese Cantidad, Seleccione moneda origen, seleccione moneda destino y presione el Botón de Convertir." FontSize="20"  HorizontalOptions="Center" VerticalOptions="Center"></Label>
+      <Entry x:Name="amountEntry" Placeholder="Ingrese valor a Convertir" FontSize="20" HorizontalOptions="FillAndExpand" VerticalOptions="Center"></Entry>
+      <Picker x:Name="sourcePicker" Title="Seleccione moneda origen."  HorizontalOptions="FillAndExpand" VerticalOptions="Center"></Picker>
+      <Picker x:Name="targetPicker" Title="Seleccione moneda destino." HorizontalOptions="FillAndExpand" VerticalOptions="Center"></Picker>
+      <Button></Button>
+    </StackLayout>  
+  </ScrollView>
+  
+</ContentPage>
