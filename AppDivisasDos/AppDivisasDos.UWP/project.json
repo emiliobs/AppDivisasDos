@@ -1,6 +1,9 @@
 ﻿{
   "dependencies": {
+    "Microsoft.Bcl": "1.1.10",
+    "Microsoft.Net.Http": "2.2.29",
     "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0",
+    "Newtonsoft.Json": "8.0.3",
     "Xamarin.Forms": "2.0.0.6482"
   },
   "frameworks": {
